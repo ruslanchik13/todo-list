@@ -6,7 +6,7 @@ const TodoItem = (props) => {
         <div className='todo'>
             <div>
                 <strong>{props.number}. {props.title}</strong>
-                <div>{props.body}</div>
+                <div className='body'>{props.body}</div>
             </div>
             <div>
                 <Button onClick={() => props.remove(props.item)}>Delete</Button>

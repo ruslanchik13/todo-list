@@ -23,3 +23,8 @@
     border-radius: 10px;
 }
 
+.body {
+    width: 600px;
+    word-wrap: break-word;
+}
+
